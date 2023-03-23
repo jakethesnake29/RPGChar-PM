@@ -34,6 +34,7 @@ namespace RPGCharacterSheet
                 junk += $"{RPGCharacter.RollDice(5, 20, _rng).ToString()}\n";
             }
             MessageBox.Show(junk);
+
         }
 
         private void buttonUpdateName_Click(object sender, RoutedEventArgs e)
